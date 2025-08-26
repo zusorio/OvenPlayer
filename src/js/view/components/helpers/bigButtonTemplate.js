@@ -1,12 +1,4 @@
-import {
-    STATE_IDLE,
-    STATE_PLAYING,
-    STATE_STALLED,
-    STATE_LOADING,
-    STATE_COMPLETE,
-    STATE_PAUSED,
-    STATE_ERROR
-} from "api/constants";
+import {STATE_COMPLETE, STATE_IDLE, STATE_PAUSED, STATE_PLAYING} from "api/constants";
 
 
 export default (uiText, playerState) => {

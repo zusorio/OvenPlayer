@@ -13,10 +13,7 @@ import QualityPanel from "view/components/controls/settingPanel/qualityPanel";
 import AudioTrackPanel from "view/components/controls/settingPanel/audioTrackPanel";
 import CaptionPanel from "view/components/controls/settingPanel/captionPanel";
 import TimeDisplayPanel from "view/components/controls/settingPanel/timeDisplayPanel";
-import {
-    CONTENT_LEVEL_CHANGED, PLAYER_ZOOM_CAHNGED
-} from "api/constants";
-import { AUDIO_TRACK_CHANGED } from "../../../../api/constants";
+import {AUDIO_TRACK_CHANGED, CONTENT_LEVEL_CHANGED, PLAYER_ZOOM_CAHNGED} from "api/constants";
 
 let PANEL_TITLE = {
     "speed": "Speed",

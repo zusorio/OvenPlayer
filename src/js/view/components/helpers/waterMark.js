@@ -3,12 +3,6 @@
  */
 import OvenTemplate from 'view/engine/OvenTemplate';
 import _ from 'underscore';
-import {
-    STATE_IDLE,
-    STATE_PLAYING,
-    STATE_COMPLETE,
-    STATE_PAUSED
-} from "api/constants";
 
 const WaterMark = function($container, api, playerState){
 

@@ -2,16 +2,9 @@
  * Created by hoho on 2018. 8. 24..
  */
 import Provider from "api/provider/html5/Provider";
-import { errorTrigger } from "api/provider/utils";
-import { PROVIDER_HTML5, STATE_IDLE } from "api/constants";
-import {
-  arrayToString,
-  base64DecodeUint8Array,
-  base64EncodeUint8Array,
-  stringToUint16Array,
-  concatInitDataIdAndCertificate
-} from "utils/eme";
-import { ERRORS, INIT_DRM_FAIL } from "api/constants";
+import {errorTrigger} from "api/provider/utils";
+import {ERRORS, INIT_DRM_FAIL, PROVIDER_HTML5, STATE_IDLE} from "api/constants";
+import {arrayToString, base64DecodeUint8Array, base64EncodeUint8Array, concatInitDataIdAndCertificate} from "utils/eme";
 
 /**
  * @brief   html5 provider extended core.

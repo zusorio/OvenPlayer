@@ -1,6 +1,6 @@
 import _ from "underscore";
-import {isRtmp, isWebRTC, isDash, isHls } from "utils/validator";
-import {extractExtension ,trim} from "../../utils/strings";
+import {isDash, isHls, isRtmp, isWebRTC} from "utils/validator";
+import {extractExtension, trim} from "utils/strings";
 import SupportChecker from "../SupportChecker";
 import {PLAYLIST_CHANGED} from "api/constants";
 

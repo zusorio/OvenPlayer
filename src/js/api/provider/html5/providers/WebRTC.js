@@ -3,10 +3,17 @@
  */
 import Provider from "api/provider/html5/Provider";
 import WebRTCLoader from "api/provider/html5/providers/WebRTCLoader";
-import { isWebRTC } from "utils/validator";
-import { errorTrigger } from "api/provider/utils";
-import { PROVIDER_WEBRTC, ERROR, PLAYER_STATE, STATE_IDLE, CONTENT_META_DATA, CONTENT_META_DATA_TYPE_SEI } from "api/constants";
-import { ERRORS, PLAYER_WEBRTC_TIMEOUT } from "../../../constants";
+import {isWebRTC} from "utils/validator";
+import {errorTrigger} from "api/provider/utils";
+import {
+  CONTENT_META_DATA,
+  CONTENT_META_DATA_TYPE_SEI,
+  ERROR,
+  PLAYER_STATE,
+  PROVIDER_WEBRTC,
+  STATE_IDLE
+} from "api/constants";
+import {ERRORS, PLAYER_WEBRTC_TIMEOUT} from "../../../constants";
 import workerScript from '../../../worker/RTCTransform.worker.js?raw';
 
 /**

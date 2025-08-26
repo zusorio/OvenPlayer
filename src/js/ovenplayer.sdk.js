@@ -1,5 +1,5 @@
 import API from 'api/Api';
-import {isWebRTC, checkAndGetContainerElement} from 'utils/validator';
+import {checkAndGetContainerElement, isWebRTC} from 'utils/validator';
 import _ from "underscore";
 
 /**

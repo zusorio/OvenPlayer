@@ -2,18 +2,22 @@
  * Created by hoho on 2018. 6. 7..
  */
 import Provider from "api/provider/html5/Provider";
-import { errorTrigger } from "api/provider/utils";
+import {errorTrigger} from "api/provider/utils";
 import {
-    PROVIDER_HLS,
-    PLAYER_STATE, STATE_IDLE, STATE_LOADING,
-    ERRORS,
-    INIT_HLSJS_FAIL,
-    HLS_PREPARED,
-    HLS_DESTROYED,
-    PLAYER_UNKNWON_NETWORK_ERROR,
-    PLAYER_BAD_REQUEST_ERROR,
-    PLAYER_AUTH_FAILED_ERROR,
-    PLAYER_NOT_ACCEPTABLE_ERROR, STATE_PLAYING, CONTENT_LEVEL_CHANGED, AUDIO_TRACK_CHANGED
+  AUDIO_TRACK_CHANGED,
+  CONTENT_LEVEL_CHANGED,
+  ERRORS,
+  HLS_DESTROYED,
+  HLS_PREPARED,
+  INIT_HLSJS_FAIL,
+  PLAYER_AUTH_FAILED_ERROR,
+  PLAYER_BAD_REQUEST_ERROR,
+  PLAYER_NOT_ACCEPTABLE_ERROR,
+  PLAYER_STATE,
+  PLAYER_UNKNWON_NETWORK_ERROR,
+  PROVIDER_HLS,
+  STATE_IDLE,
+  STATE_LOADING
 } from "api/constants";
 
 import sizeHumanizer from "utils/sizeHumanizer";

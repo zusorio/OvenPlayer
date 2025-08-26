@@ -2,14 +2,9 @@
  * Created by hoho on 2018. 7. 25..
  */
 import OvenTemplate from "view/engine/OvenTemplate";
-import { naturalHms } from "utils/strings";
-import { getSeekableStartEnd } from "api/provider/utils";
-import {
-  CONTENT_TIME,
-  CONTENT_TIME_MODE_CHANGED,
-  PROVIDER_HLS,
-  PROVIDER_HTML5
-} from "api/constants";
+import {naturalHms} from "utils/strings";
+import {getSeekableStartEnd} from "api/provider/utils";
+import {CONTENT_TIME, CONTENT_TIME_MODE_CHANGED, PROVIDER_HLS, PROVIDER_HTML5} from "api/constants";
 
 const TimeDisplay = function ($container, api, data) {
 

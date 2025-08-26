@@ -12,20 +12,18 @@ import LA$ from 'utils/likeA$';
 import TimeDisplay from "view/components/controls/timeDisplay";
 import FullScreenButton from "view/components/controls/fullScreenButton";
 import {
-    READY,
-    CONTENT_META, CONTENT_LEVEL_CHANGED, CONTENT_TIME_MODE_CHANGED, CONTENT_TIME, PLAYER_PLAY,
-    STATE_AD_LOADED,
-    PLAYER_RESIZED,
-    AD_CHANGED,
-    STATE_AD_ERROR,
-    STATE_AD_PLAYING,
-    STATE_AD_PAUSED,
-    STATE_AD_COMPLETE,
-    CONTENT_SOURCE_CHANGED,
-    OME_P2P_MODE,
-    ERROR,
-    PROVIDER_HLS,
-    PLAYER_WEBRTC_WS_ERROR
+  AD_CHANGED,
+  CONTENT_META,
+  CONTENT_SOURCE_CHANGED,
+  CONTENT_TIME,
+  ERROR,
+  OME_P2P_MODE,
+  PLAYER_PLAY,
+  PLAYER_RESIZED,
+  PROVIDER_HLS,
+  READY,
+  STATE_AD_COMPLETE,
+  STATE_AD_ERROR
 } from "api/constants";
 
 const Controls = function ($container, api) {

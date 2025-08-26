@@ -5,21 +5,20 @@ import Provider from "api/provider/html5/Provider";
 import {errorTrigger} from "api/provider/utils";
 import sizeHumanizer from "utils/sizeHumanizer";
 import {
-    STATE_IDLE,
-    STATE_PLAYING,
-    STATE_AD_PLAYING,
-    STATE_AD_PAUSED,
-    INIT_DASH_UNSUPPORT,
-    INIT_DASH_FAIL,
-    ERRORS,
-    PLAYER_UNKNWON_NETWORK_ERROR,
-    CONTENT_LEVEL_CHANGED,
-    PROVIDER_DASH,
-    DASH_PREPARED,
-    DASH_DESTROYED
+  CONTENT_LEVEL_CHANGED,
+  DASH_DESTROYED,
+  DASH_PREPARED,
+  ERRORS,
+  INIT_DASH_FAIL,
+  INIT_DASH_UNSUPPORT,
+  PLAYER_UNKNWON_NETWORK_ERROR,
+  PROVIDER_DASH,
+  STATE_AD_PAUSED,
+  STATE_AD_PLAYING,
+  STATE_IDLE,
+  STATE_PLAYING
 } from "api/constants";
 import _ from "underscore";
-import {STATE_LOADING} from "../../../constants";
 
 /**
  * @brief   dashjs provider extended core.

@@ -4,19 +4,13 @@
 import AdsEventsListener from "api/ads/ima/Listener";
 import {TEMP_VIDEO_URL} from "api/ads/utils";
 import LA$ from "utils/likeA$.js";
-import {errorTrigger} from "api/provider/utils";
 import {
-    ERROR,
-    CONTENT_VOLUME,
-    STATE_LOADING,
-    INIT_ADS_ERROR,
-    STATE_AD_ERROR,
-    PLAYER_WARNING,
-    CONTENT_META,
-    WARN_MSG_MUTEDPLAY,
-    STATE_AD_LOADING,
-    PROVIDER_DASH,
-    UI_ICONS
+  CONTENT_VOLUME,
+  PLAYER_WARNING,
+  PROVIDER_DASH,
+  STATE_AD_ERROR,
+  UI_ICONS,
+  WARN_MSG_MUTEDPLAY
 } from "api/constants";
 
 const Ad = function(elVideo, provider, playerConfig, adTagUrl, errorCallback){

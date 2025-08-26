@@ -2,12 +2,7 @@
  * Created by hoho on 2018. 7. 20..
  */
 import OvenTemplate from "view/engine/OvenTemplate";
-import {
-    READY,
-    CONTENT_VOLUME,
-    CONTENT_MUTE
-} from "api/constants";
-import {PLAYER_PLAY} from "../../../api/constants";
+import {CONTENT_MUTE, CONTENT_VOLUME, READY} from "api/constants";
 
 const VolumeButton = function($container, api){
 

@@ -6,33 +6,24 @@ import MediaManager from "api/media/Manager";
 import PlaylistManager from "api/playlist/Manager";
 import ProviderController from "api/provider/Controller";
 import {
-    READY,
-    ERRORS,
-    ERROR,
-    CONTENT_COMPLETE,
-    CONTENT_META,
-    INIT_UNKNWON_ERROR,
-    INIT_UNSUPPORT_ERROR,
-    DESTROY,
-    PLAYER_PLAY,
-    NETWORK_UNSTABLED,
-    PLAYER_WEBRTC_NETWORK_SLOW,
-    PLAYER_WEBRTC_UNEXPECTED_DISCONNECT,
-    PLAYER_WEBRTC_SET_LOCAL_DESC_ERROR,
-    PLAYER_FILE_ERROR,
-    PROVIDER_DASH,
-    PROVIDER_HLS,
-    PROVIDER_WEBRTC,
-    PROVIDER_HTML5,
-    PROVIDER_RTMP,
-    ALL_PLAYLIST_ENDED
+  ALL_PLAYLIST_ENDED,
+  CONTENT_COMPLETE,
+  CONTENT_META,
+  DESTROY,
+  ERROR,
+  ERRORS,
+  INIT_UNKNWON_ERROR,
+  INIT_UNSUPPORT_ERROR,
+  PROVIDER_RTMP,
+  PROVIDER_WEBRTC,
+  READY
 } from "api/constants";
 
-import { ApiRtmpExpansion } from 'api/ApiExpansions';
-import { analUserAgent } from "utils/browser";
-import { pickCurrentSource } from "api/provider/utils";
-import { version } from "../version";
-import { CONTENT_SOURCE_CHANGED } from "./constants";
+import {ApiRtmpExpansion} from 'api/ApiExpansions';
+import {analUserAgent} from "utils/browser";
+import {pickCurrentSource} from "api/provider/utils";
+import {version} from "../version";
+import {CONTENT_SOURCE_CHANGED} from "./constants";
 
 /**
  * @brief   This object connects UI to the provider.

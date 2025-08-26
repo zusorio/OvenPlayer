@@ -2,14 +2,7 @@
  * Created by hoho on 2018. 7. 24..
  */
 import OvenTemplate from 'view/engine/OvenTemplate';
-import {
-    STATE_IDLE,
-    STATE_PLAYING,
-    STATE_COMPLETE,
-    STATE_PAUSED,
-    CONTENT_CAPTION_CHANGED,
-    CONTENT_CAPTION_CUE_CHANGED
-} from "api/constants";
+import {CONTENT_CAPTION_CHANGED, CONTENT_CAPTION_CUE_CHANGED} from "api/constants";
 import LA$ from 'utils/likeA$';
 
 

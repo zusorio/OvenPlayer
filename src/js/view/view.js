@@ -10,22 +10,18 @@ import LA$ from 'utils/likeA$';
 import ResizeSensor from "utils/resize-sensor";
 import getTouchSection from "utils/getTouchSection";
 import {
-    READY,
-    DESTROY,
-    PLAYER_RESIZED,
-    PLAYER_PLAY,
-    STATE_IDLE,
-    STATE_AD_PLAYING,
-    STATE_PLAYING,
-    STATE_STALLED,
-    STATE_LOADING,
-    STATE_COMPLETE,
-    STATE_PAUSED,
-    STATE_ERROR,
-    CONTENT_META,
-    PLAYER_STATE,
-    PLAYER_CLICKED,
-    ERROR
+  DESTROY,
+  ERROR,
+  PLAYER_CLICKED,
+  PLAYER_PLAY,
+  PLAYER_RESIZED,
+  READY,
+  STATE_AD_PLAYING,
+  STATE_COMPLETE,
+  STATE_IDLE,
+  STATE_LOADING,
+  STATE_PAUSED,
+  STATE_PLAYING
 } from "api/constants";
 
 import '../../stylesheet/ovenplayer.less';

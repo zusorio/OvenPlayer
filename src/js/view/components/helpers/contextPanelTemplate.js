@@ -1,4 +1,5 @@
 import {version} from "@/version";
+
 export default (uiText) => {
     return (
         `<div class="op-context-panel animated fadeIn">` +

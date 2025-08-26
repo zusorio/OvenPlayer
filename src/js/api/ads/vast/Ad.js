@@ -2,24 +2,10 @@
  * Created by hoho on 25/06/2019.
  */
 
-import { VASTClient, VASTTracker } from '@dailymotion/vast-client';
+import {VASTClient, VASTTracker} from '@dailymotion/vast-client';
 import AdsEventsListener from "api/ads/vast/Listener";
 import {TEMP_VIDEO_URL} from "api/ads/utils";
-import {
-    ERROR,
-    STATE_IDLE,
-    STATE_PLAYING,
-    STATE_STALLED,
-    STATE_LOADING,
-    STATE_COMPLETE,
-    STATE_AD_LOADED,
-    STATE_AD_PLAYING,
-    STATE_AD_PAUSED,
-    STATE_AD_COMPLETE,
-    STATE_AD_ERROR,
-    CONTENT_META,
-    PROVIDER_DASH
-} from "api/constants";
+import {PROVIDER_DASH, STATE_AD_ERROR} from "api/constants";
 
 const Ad = function(elVideo, provider, playerConfig, adTagUrl){
     const AUTOPLAY_NOT_ALLOWED = "autoplayNotAllowed";

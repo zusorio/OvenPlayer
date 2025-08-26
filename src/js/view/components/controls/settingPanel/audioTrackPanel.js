@@ -4,9 +4,7 @@
 import OvenTemplate from 'view/engine/OvenTemplate';
 import PanelManager from "view/global/PanelManager";
 import LA$ from 'utils/likeA$';
-import {
-    AUDIO_TRACK_CHANGED
-} from "api/constants";
+import {AUDIO_TRACK_CHANGED} from "api/constants";
 import _ from "underscore";
 
 const AudioTrackPanel = function ($container, api, data) {

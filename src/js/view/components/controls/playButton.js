@@ -3,19 +3,16 @@
  */
 import OvenTemplate from "view/engine/OvenTemplate";
 import {
-    ERROR,
-    STATE_IDLE,
-    STATE_PLAYING,
-    STATE_STALLED,
-    STATE_LOADING,
-    STATE_COMPLETE,
-    STATE_PAUSED,
-    STATE_ERROR,
-    PLAYER_STATE,
-    STATE_AD_LOADED,
-    STATE_AD_PLAYING,
-    STATE_AD_PAUSED,
-    STATE_AD_COMPLETE,
+  PLAYER_STATE,
+  STATE_AD_PAUSED,
+  STATE_AD_PLAYING,
+  STATE_COMPLETE,
+  STATE_ERROR,
+  STATE_IDLE,
+  STATE_LOADING,
+  STATE_PAUSED,
+  STATE_PLAYING,
+  STATE_STALLED,
 } from "api/constants";
 
 const PlayButton = function ($container, api) {

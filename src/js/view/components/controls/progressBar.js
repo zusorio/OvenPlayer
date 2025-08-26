@@ -3,16 +3,10 @@
  */
 import OvenTemplate from "view/engine/OvenTemplate";
 import PanelManager from "view/global/PanelManager";
-import { naturalHms } from "utils/strings"
-import { getSeekableStartEnd } from "api/provider/utils";
+import {naturalHms} from "utils/strings"
+import {getSeekableStartEnd} from "api/provider/utils";
 import LA$ from "utils/likeA$";
-import {
-    CONTENT_TIME,
-    CONTENT_BUFFER,
-    AD_TIME,
-    PROVIDER_HLS,
-    PROVIDER_HTML5
-} from "api/constants";
+import {AD_TIME, CONTENT_BUFFER, CONTENT_TIME, PROVIDER_HLS, PROVIDER_HTML5} from "api/constants";
 
 const ProgressBar = function ($container, api, isAd, metadata) {
     const $root = LA$(api.getContainerElement());

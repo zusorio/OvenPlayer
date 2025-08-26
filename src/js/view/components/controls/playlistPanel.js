@@ -2,13 +2,9 @@
  * Created by hoho on 06/03/2019.
  */
 import OvenTemplate from "view/engine/OvenTemplate";
-import {naturalHms} from "utils/strings"
 import {playlistItemTemplate} from "view/components/controls/playlistPanelTemplate";
 import LA$ from "utils/likeA$";
-import {
-    PLAYER_RESIZED,
-    PLAYLIST_CHANGED
-} from "api/constants";
+import {PLAYER_RESIZED, PLAYLIST_CHANGED} from "api/constants";
 
 const PlaylistPanel = function($container, api){
     const $root = LA$(api.getContainerElement());

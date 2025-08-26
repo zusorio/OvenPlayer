@@ -1,9 +1,7 @@
 import _ from "underscore";
 import deepMerge from "utils/deepMerge";
 
-import {
-    CONTENT_TIME_MODE_CHANGED, SYSTEM_TEXT
-} from "api/constants";
+import {CONTENT_TIME_MODE_CHANGED, SYSTEM_TEXT} from "api/constants";
 
 /**
  * @brief   This initializes the input options.

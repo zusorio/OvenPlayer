@@ -5,7 +5,12 @@ import Dash from "api/provider/html5/providers/Dash";
 import Hls from "api/provider/html5/providers/Hls";
 
 import {
-    PROVIDER_HTML5, PROVIDER_WEBRTC, PROVIDER_DASH, PROVIDER_HLS, PROVIDER_RTMP, ERRORS, INIT_UNSUPPORT_ERROR
+  ERRORS,
+  INIT_UNSUPPORT_ERROR,
+  PROVIDER_DASH,
+  PROVIDER_HLS,
+  PROVIDER_HTML5,
+  PROVIDER_WEBRTC
 } from "api/constants";
 
 /**

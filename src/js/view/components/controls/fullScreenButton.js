@@ -4,15 +4,13 @@
 import OvenTemplate from "view/engine/OvenTemplate";
 import LA$ from "utils/likeA$";
 import {
-    AD_CHANGED,
-    STATE_AD_COMPLETE,
-    STATE_AD_LOADED,
-    STATE_AD_PLAYING,
-    STATE_AD_PAUSED,
-    PLAYER_FULLSCREEN_CHANGED,
-    PLAYER_FULLSCREEN_REQUEST
+  AD_CHANGED,
+  PLAYER_FULLSCREEN_CHANGED,
+  PLAYER_FULLSCREEN_REQUEST,
+  STATE_AD_LOADED,
+  STATE_AD_PAUSED,
+  STATE_AD_PLAYING
 } from "api/constants";
-
 
 
 const FullScreenButton = function ($container, api) {

@@ -1,5 +1,6 @@
-import {isRtmp, isWebRTC, isDash, isHls} from "utils/validator";
+import {isDash, isHls, isRtmp, isWebRTC} from "utils/validator";
 import {analUserAgent} from "utils/browser";
+
 /**
  * @brief   This finds the provider that matches the input source.
  * @param

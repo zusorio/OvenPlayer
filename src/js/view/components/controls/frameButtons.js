@@ -3,17 +3,6 @@
  */
 import OvenTemplate from "view/engine/OvenTemplate";
 import LA$ from 'utils/likeA$';
-import {
-    ERROR,
-    STATE_IDLE,
-    STATE_PLAYING,
-    STATE_STALLED,
-    STATE_LOADING,
-    STATE_COMPLETE,
-    STATE_PAUSED,
-    STATE_ERROR,
-    PLAYER_STATE
-} from "api/constants";
 
 const FrameButtons = function ($container, api) {
     const onRendered = function($current, template){

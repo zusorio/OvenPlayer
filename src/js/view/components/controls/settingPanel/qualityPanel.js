@@ -5,9 +5,7 @@ import OvenTemplate from 'view/engine/OvenTemplate';
 import PanelManager from "view/global/PanelManager";
 import LA$ from 'utils/likeA$';
 import _ from "underscore";
-import {
-    CONTENT_LEVEL_CHANGED
-} from "api/constants";
+import {CONTENT_LEVEL_CHANGED} from "api/constants";
 
 const QualityPanel = function($container, api, data){
     const $root = LA$(api.getContainerElement());
