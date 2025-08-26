@@ -20,7 +20,7 @@
     "vue": "^3.3.6"
   },
   "dependencies": {
-    "ovenplayer": "^0.10.31"
+    "ovenplayer": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^18.18.6",
