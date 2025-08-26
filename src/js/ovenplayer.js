@@ -1,4 +1,4 @@
-import {version} from 'version'
+import {version} from '@/version'
 import OvenPlayerSDK from './ovenplayer.sdk'
 import {checkAndGetContainerElement} from 'utils/validator'
 import View from './view/view';

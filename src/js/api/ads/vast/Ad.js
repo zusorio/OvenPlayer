@@ -2,7 +2,7 @@
  * Created by hoho on 25/06/2019.
  */
 
-import { VASTClient, VASTTracker } from 'utils/vast-client';
+import { VASTClient, VASTTracker } from '@dailymotion/vast-client';
 import AdsEventsListener from "api/ads/vast/Listener";
 import {TEMP_VIDEO_URL} from "api/ads/utils";
 import {

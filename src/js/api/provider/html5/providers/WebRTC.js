@@ -7,7 +7,7 @@ import { isWebRTC } from "utils/validator";
 import { errorTrigger } from "api/provider/utils";
 import { PROVIDER_WEBRTC, ERROR, PLAYER_STATE, STATE_IDLE, CONTENT_META_DATA, CONTENT_META_DATA_TYPE_SEI } from "api/constants";
 import { ERRORS, PLAYER_WEBRTC_TIMEOUT } from "../../../constants";
-import workerScript from '!!raw-loader!../../../worker/RTCTransform.worker.js';
+import workerScript from '../../../worker/RTCTransform.worker.js?raw';
 
 /**
  * @brief   webrtc provider extended core.

@@ -1,4 +1,4 @@
-import OvenPlayerSDK from "ovenplayer.sdk"
+import OvenPlayerSDK from "@/ovenplayer.sdk"
 import CaptionManager from "api/caption/Manager";
 import Configurator from "api/Configurator";
 import EventEmitter from "api/EventEmitter";

@@ -88,12 +88,13 @@ const SupportChecker = function(){
                 if (!video.canPlayType) {
                     return false;
                 }
-                if (isRtmp(file, type)) {
-                    return false;
-                }
 
                 const file = source.file;
                 const type = source.type;
+
+                if (isRtmp(file, type)) {
+                  return false;
+                }
 
                 if(isWebRTC(file, type)){
                     return true;
