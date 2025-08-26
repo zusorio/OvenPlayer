@@ -1,8 +1,4 @@
-const ResizeSensor = function () {
-  'use strict';
-  var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || function (fn) {
-    return window.setTimeout(fn, 20);
-  };
+export default function () {
   /**
    *
    * @constructor
@@ -19,6 +15,7 @@ const ResizeSensor = function () {
       }
     };
   }
+
   /**
    * @param {HTMLElement} element
    * @param {String}      prop
@@ -33,6 +30,7 @@ const ResizeSensor = function () {
       return element.style[prop];
     }
   }
+
   /**
    *
    * @param {HTMLElement} element
@@ -76,9 +74,9 @@ const ResizeSensor = function () {
         element.resizedAttached.call();
         dirty = false;
       }
-      requestAnimationFrame(dirtyChecking);
+      window.requestAnimationFrame(dirtyChecking);
     };
-    requestAnimationFrame(dirtyChecking);
+    window.requestAnimationFrame(dirtyChecking);
     var lastWidth, lastHeight;
     var cachedWidth, cachedHeight;
     //useful to not query offsetWidth twice
@@ -100,6 +98,7 @@ const ResizeSensor = function () {
     addEvent(expand, 'scroll', onScroll);
     addEvent(shrink, 'scroll', onScroll);
   }
+
   /**
    * Class for dimension change detection.
    *
@@ -145,6 +144,4 @@ const ResizeSensor = function () {
     }
   };
   return ResizeSensor;
-}();
-
-export default ResizeSensor;
+};
