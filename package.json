@@ -1,7 +1,8 @@
 {
-  "name": "ovenplayer-monorepo",
-  "private": true,
+  "name": "@zusor/ovenplayer-monorepo",
   "version": "0.0.1",
+  "private": true,
+  "type": "module",
   "scripts": {
     "build": "pnpm -r run build"
   },

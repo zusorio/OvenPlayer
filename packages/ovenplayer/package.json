@@ -1,5 +1,5 @@
 {
-  "name": "ovenplayer",
+  "name": "@zusor/ovenplayer",
   "version": "0.10.44",
   "description": "OvenPlayer is Open-Source HTML5 Player. OvenPlayer supports WebRTC Signaling from OvenMediaEngine for Sub-Second Latency Streaming.",
   "main": "src/js/ovenplayer.js",
@@ -16,7 +16,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AirenSoft/OvenPlayer.git"
+    "url": "git+https://github.com/zusorio/OvenPlayer.git",
+    "directory": "packages/ovenplayer"
   },
   "keywords": [
     "Sub-Second Latency Streaming",
@@ -32,7 +33,7 @@
   "author": "AirenSoft Co., Ltd.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AirenSoft/OvenPlayer/issues"
+    "url": "https://github.com/zusorio/Ovenplayer/issues"
   },
   "homepage": "https://www.ovenmediaengine.com/ovenplayer",
   "devDependencies": {
@@ -44,6 +45,5 @@
   "dependencies": {
     "@dailymotion/vast-client": "^6.4.1",
     "underscore": "^1.13.7"
-  },
-  "packageManager": "pnpm@9.15.9+sha512.68046141893c66fad01c079231128e9afb89ef87e2691d69e4d40eee228988295fd4682181bae55b58418c3a253bde65a505ec7c5f9403ece5cc3cd37dcf2531"
+  }
 }

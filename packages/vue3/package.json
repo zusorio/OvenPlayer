@@ -1,9 +1,14 @@
 {
-  "name": "ovenplayer-vue3",
+  "name": "@zusor/ovenplayer-vue3",
   "version": "1.0.0-beta.3",
   "type": "module",
   "main": "dist/ovenplayer-vue3.umd.js",
   "module": "dist/ovenplayer-vue3.es.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zusorio/OvenPlayer.git",
+    "directory": "packages/vue3"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build && vue-tsc --declaration --emitDeclarationOnly",
@@ -20,7 +25,7 @@
     "vue": "^3.3.6"
   },
   "dependencies": {
-    "ovenplayer": "workspace:*"
+    "ovenplayer": "workspace:^"
   },
   "devDependencies": {
     "@types/node": "^18.18.6",
