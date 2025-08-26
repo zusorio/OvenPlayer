@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "hls.js": "^1.5.20",
-    "ovenplayer": "workspace:^"
+    "@zusor/ovenplayer": "workspace:^"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
