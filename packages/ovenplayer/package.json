@@ -1,0 +1,50 @@
+{
+  "name": "@zusor/ovenplayer",
+  "version": "0.11.0-beta.1",
+  "description": "OvenPlayer is Open-Source HTML5 Player. OvenPlayer supports WebRTC Signaling from OvenMediaEngine for Sub-Second Latency Streaming.",
+  "main": "src/js/ovenplayer.js",
+  "exports": {
+    ".": {
+      "default": "./dist/ovenplayer.js"
+    },
+    "./style.css": "./dist/ovenplayer.css"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "watch": "vite build --watch",
+    "build": "vite build",
+    "dev": "vite dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zusorio/OvenPlayer.git",
+    "directory": "packages/ovenplayer"
+  },
+  "keywords": [
+    "Sub-Second Latency Streaming",
+    "WebRTC",
+    "OvenMediaEngine",
+    "Low Latency HTTP",
+    "MPEG-DASH",
+    "HLS",
+    "HTML5",
+    "Video",
+    "Player"
+  ],
+  "author": "AirenSoft Co., Ltd.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zusorio/Ovenplayer/issues"
+  },
+  "homepage": "https://www.ovenmediaengine.com/ovenplayer",
+  "devDependencies": {
+    "@types/google_interactive_media_ads_types": "^3.697.1",
+    "less": "^4.1.1",
+    "sonda": "^0.9.0",
+    "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "@dailymotion/vast-client": "^6.4.1",
+    "underscore": "^1.13.7"
+  }
+}

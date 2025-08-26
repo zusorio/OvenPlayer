@@ -1,8 +1,12 @@
 {
-  "name": "ovenplayer-react",
-  "private": false,
-  "version": "0.0.1",
+  "name": "@zusor/ovenplayer-react",
+  "version": "0.1.0-beta.1",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zusorio/OvenPlayer.git",
+    "directory": "packages/react"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build && tsc -b --emitDeclarationOnly",
@@ -12,13 +16,14 @@
   "main": "dist/ovenplayer-react.umd.js",
   "module": "dist/ovenplayer-react.es.js",
   "types": "dist/types/index.d.ts",
+  "files": ["dist"],
   "peerDependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
   "dependencies": {
     "hls.js": "^1.5.20",
-    "ovenplayer": "^0.10.43"
+    "ovenplayer": "workspace:^"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
