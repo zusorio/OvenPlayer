@@ -1,6 +1,6 @@
 {
   "name": "@zusor/ovenplayer",
-  "version": "0.10.44",
+  "version": "0.11.0-beta.1",
   "description": "OvenPlayer is Open-Source HTML5 Player. OvenPlayer supports WebRTC Signaling from OvenMediaEngine for Sub-Second Latency Streaming.",
   "main": "src/js/ovenplayer.js",
   "exports": {
