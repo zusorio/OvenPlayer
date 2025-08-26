@@ -21,6 +21,7 @@
       "require": "./dist/ovenplayer-vue3.umd.js"
     }
   },
+  "files": ["dist"],
   "peerDependencies": {
     "vue": "^3.3.6"
   },

@@ -9,6 +9,7 @@
     },
     "./style.css": "./dist/ovenplayer.css"
   },
+  "files": ["dist"],
   "scripts": {
     "watch": "vite build --watch",
     "build": "vite build",
