@@ -1,5 +1,4 @@
 import { defineConfig } from 'vite';
-import css from "rollup-plugin-import-css";
 import { fileURLToPath } from 'node:url';
 import { readFileSync } from 'node:fs';
 import Sonda from 'sonda/vite';
@@ -17,11 +16,10 @@ export default defineConfig({
       formats: ["umd"],
       fileName: () => 'ovenplayer.js',
     },
-    rollupOptions: {
-      plugins: [css()]
-    },
     sourcemap: true,
   },
+
+  plugins: [Sonda()],
 
   resolve: {
     alias: {
