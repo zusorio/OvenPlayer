@@ -9,7 +9,9 @@
     },
     "./style.css": "./dist/ovenplayer.css"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "watch": "vite build --watch",
     "build": "vite build",
@@ -45,6 +47,7 @@
   },
   "dependencies": {
     "@dailymotion/vast-client": "^6.4.1",
+    "media-captions": "^0.0.18",
     "underscore": "^1.13.7"
   }
 }
