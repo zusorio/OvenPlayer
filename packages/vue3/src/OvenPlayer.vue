@@ -1,8 +1,9 @@
 <script setup lang="ts">
+import "@zusor/ovenplayer/style.css";
 import { ref, watch, onMounted, onUnmounted } from 'vue';
-import OvenPlayer from 'ovenplayer';
+import * as OvenPlayer from '@zusor/ovenplayer';
 
-import type { OvenPlayerConfig, OvenPlayerInstance, OvenPlayerEvents } from 'ovenplayer';
+import type { OvenPlayerConfig, OvenPlayerInstance, OvenPlayerEvents } from '@zusor/ovenplayer';
 
 const playerInstance = ref<OvenPlayerInstance>();
 const id = 'ovenplayer-' + Math.random().toString().replace('.', '');

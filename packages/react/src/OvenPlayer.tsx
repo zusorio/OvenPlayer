@@ -1,9 +1,11 @@
 import React, { useEffect, useRef, useCallback } from "react";
-import OvenPlayerLib, {
-  OvenPlayerConfig,
-  OvenPlayerInstance,
-  OvenPlayerEvents,
-} from "ovenplayer";
+import "@zusor/ovenplayer/style.css";
+import * as OvenPlayerLib from "@zusor/ovenplayer";
+import type {
+    OvenPlayerConfig,
+    OvenPlayerInstance,
+    OvenPlayerEvents,
+} from "@zusor/ovenplayer";
 
 /**
  * Props for the OvenPlayerReact component.
