@@ -18,7 +18,7 @@ importers:
         specifier: ^6.4.1
         version: 6.4.1
       media-captions:
-        specifier: ^0.0.18
+        specifier: 0.0.18
         version: 0.0.18
       underscore:
         specifier: ^1.13.7

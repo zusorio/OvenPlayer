@@ -13,8 +13,7 @@ export default defineConfig({
         lib: {
             entry: fileURLToPath(new URL('./src/js/ovenplayer.js', import.meta.url)),
             name: 'OvenPlayer',
-            formats: ["umd"],
-            fileName: () => 'ovenplayer.js',
+            formats: ["es", "umd"],
         },
         sourcemap: true,
     },

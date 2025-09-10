@@ -6,8 +6,8 @@
   "exports": {
     ".": {
       "types": "./index.d.ts",
-      "import": "./dist/ovenplayer.js",
-      "require": "./dist/ovenplayer.js"
+      "import": "./dist/ovenplayer.mjs",
+      "require": "./dist/ovenplayer.umd.js"
     },
     "./style.css": "./dist/ovenplayer.css"
   },

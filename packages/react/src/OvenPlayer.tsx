@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useCallback } from "react";
 import "@zusor/ovenplayer/style.css";
-import * as OvenPlayerLib from "@zusor/ovenplayer";
+import OvenPlayerLib from "@zusor/ovenplayer";
 import type {
     OvenPlayerConfig,
     OvenPlayerInstance,

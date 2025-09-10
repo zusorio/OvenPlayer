@@ -13,3 +13,7 @@ trim_trailing_whitespace = true
 [{*.cjs,*.es6,*.js,*.mjs}]
 indent_size = 4
 tab_width = 4
+
+[{*.json,*.jsonc}]
+indent_size = 2
+tab_width = 2
