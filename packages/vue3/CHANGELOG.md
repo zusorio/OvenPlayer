@@ -1,5 +1,16 @@
 # @zusor/ovenplayer-vue3
 
+## 0.4.0
+
+### Minor Changes
+
+- 0380dc1: Fix SSR issues by switching back to old caption implementation
+
+### Patch Changes
+
+- Updated dependencies [0380dc1]
+  - @zusor/ovenplayer@0.14.0
+
 ## 0.3.0
 
 ### Minor Changes

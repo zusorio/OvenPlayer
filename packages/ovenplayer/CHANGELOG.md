@@ -1,5 +1,11 @@
 # @zusor/ovenplayer
 
+## 0.14.0
+
+### Minor Changes
+
+- 0380dc1: Fix SSR issues by switching back to old caption implementation
+
 ## 0.13.0
 
 ### Minor Changes
