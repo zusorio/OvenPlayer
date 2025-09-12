@@ -1,5 +1,16 @@
 # @zusor/ovenplayer-vue3
 
+## 0.3.0
+
+### Minor Changes
+
+- 60d05c6: Ship ESM and UMD builds, fixing some import issues
+
+### Patch Changes
+
+- Updated dependencies [60d05c6]
+  - @zusor/ovenplayer@0.13.0
+
 ## 0.2.0
 
 ### Minor Changes
